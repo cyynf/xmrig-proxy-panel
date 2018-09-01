@@ -182,16 +182,6 @@
 
     localStorage.proxy_url = '这里填写你的xmrig-proxy的地址例如http://127.0.0.1:2222;放在服务器上就填外网地址';
 
-    function trim(s, c) {
-        if (c === "]")
-            c = "\\]";
-        if (c === "\\")
-            c = "\\\\";
-        return s.replace(new RegExp(
-            "^[" + c + "]+|[" + c + "]+$", "g"
-        ), "");
-    }
-
     Object.size = function (obj) {
         var size = 0, key;
         for (key in obj) {
