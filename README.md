@@ -1,7 +1,8 @@
 ## 配置 ##
 #### 在index.html中: ####
 ``` javascript
-localStorage.proxy_url = '这里填写你的xmrig-proxy的地址,例如"http://127.0.0.1:2222",放在服务器上就填外网地址'
+const proxy_url = 'http://127.0.0.1:2222'; //这里填写你的xmrig-proxy的地址, 放在外网服务器上填外网地址';
+const mDiff = 50000; //这里填你的xmrig-proxy设置的固定难度
 ```
 <br><br>
 ![Image text](https://github.com/cyynf/proxypanel/blob/master/img/image1.png)
