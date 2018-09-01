@@ -1,9 +1,2 @@
-Данная панель может использоваться как локально, так и при установке на web-сервер.
-<br>
-Для подключения к xmrig-proxy, его надо запустить с параметром --api-port=N, где N - порт на котором будет работать JSON API прокси.
-<br>
-Или же добавить в конфигурационный файл:
-<br>
-"api": {"port": N}
-<br>
-где N - порт на котором будет работать JSON API прокси.
+![Image text](https://github.com/cyynf/proxypanel/blob/master/img/image1.png)
+![Image text](https://github.com/cyynf/proxypanel/blob/master/img/image2.png)
