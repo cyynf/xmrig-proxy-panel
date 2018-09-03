@@ -51,7 +51,7 @@ function mainInfoCallback(data) {
         $('#latency').text('Ping: ' + data.results.latency + ' ms');
         $('#avg_time').text('Avg: ' + data.results.avg_time + ' s');
         $('#best').text('Best: ' + data.results.best[0].toLocaleString());
-        $('#effort').text((Number((mDiff / data.results.avg_time) / data.hashrate.total[2]) / 10).toFixed(2) + '%');
+        $('#effort').text(Number(data.results.best[0]/data.results.hashes_total).toFixed(2) + '%');
     }
 }
 
